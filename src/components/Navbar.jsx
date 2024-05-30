@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <nav className="border-2 content-center px-40 py-2 font-roboto text-xl">
-      <div className="flex flex-row justify-between max-w-7xl mx-auto">
+    <nav className="border-b-2 content-center py-2 font-roboto text-xl text-white bg-sky-950">
+      <div className="flex flex-row justify-between max-w-7xl mx-auto px-3">
         <div className="py-1 flex justify-center content-center">
           <img
             src="src\assets\bg_logo_blue-cropped.svg"
@@ -11,9 +11,15 @@ const Navbar = () => {
           />
         </div>
         <ul className="flex justify-between py-6 [&_li]:px-6">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <a href="#">/about</a>
+          </li>
+          <li>
+            <a href="#">/projects</a>
+          </li>
+          <li>
+            <a href="#">/contact</a>
+          </li>
         </ul>
       </div>
     </nav>
