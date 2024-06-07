@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="py-2 font-roboto text-xl text-white absolute w-screen">
-      <div className="flex flex-row justify-between max-w-7xl mx-auto px-3">
+      <div className="flex flex-row justify-between max-w-7xl mx-auto px-6">
         <div className="py-1 flex justify-center content-center">
           <img
             src="src\assets\bg_logo_blue-cropped.svg"
