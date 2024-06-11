@@ -1,12 +1,11 @@
 const Navbar = () => {
   return (
-    <nav className="py-2 font-roboto text-xl text-white absolute w-screen">
+    <nav className="py-2 font-roboto text-xl text-white absolute w-full">
       <div className="flex flex-row justify-between max-w-7xl mx-auto px-6">
         <div className="py-1 flex justify-center content-center">
           <img
             src="src\assets\bg_logo_blue-cropped.svg"
             alt=""
-            srcset=""
             className="min-w-32"
           />
         </div>
