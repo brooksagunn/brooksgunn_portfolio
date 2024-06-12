@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         <ul className="flex justify-between py-6 [&_li]:px-6">
           <li>
-            <a href="#">
+            <a href="#about">
               <span className="text-surf">/</span>about
             </a>
           </li>
